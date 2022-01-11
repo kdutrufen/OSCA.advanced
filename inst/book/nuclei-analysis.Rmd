@@ -18,7 +18,7 @@ The cost of this flexibility is the loss of transcripts that are primarily locat
 
 The computational analysis of snRNA-seq data is very much like that of scRNA-seq data.
 We have a matrix of (UMI) counts for genes by cells that requires quality control, normalization and so on.
-(Technically, the columsn correspond to nuclei but we will use these two terms interchangeably in this chapter.)
+(Technically, the columns correspond to nuclei but we will use these two terms interchangeably in this chapter.)
 In fact, the biggest difference in processing occurs in the construction of the count matrix itself, where intronic regions must be included in the annotation for each gene to account for the increased abundance of unspliced transcripts.
 The rest of the analysis only requires a few minor adjustments to account for the loss of cytoplasmic transcripts.
 We demonstrate using a dataset from @wu2019advantages involving snRNA-seq on healthy and fibrotic mouse kidneys.
